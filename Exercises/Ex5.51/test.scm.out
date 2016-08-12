@@ -1,0 +1,327 @@
+explicit-control.c main 1237
+Creating symbol table
+Reserved set size: 12
+Inserting quote
+Inserting set!
+Inserting define
+Inserting if
+Inserting lambda
+Inserting begin
+Inserting ok
+Inserting false
+Inserting true
+Inserting procedure
+Inserting primitive
+Inserting unknown-procedure-type
+Printing symbol table
+Looking for quote
+Found quote
+Looking for set!
+Found set!
+Looking for define
+Found define
+Looking for if
+Found if
+Looking for lambda
+Found lambda
+Looking for begin
+Found begin
+Looking for ok
+Found ok
+Looking for false
+Found false
+Looking for true
+Found true
+Looking for procedure
+Found procedure
+Looking for primitive
+Found primitive
+Looking for unknown-procedure-type
+Found unknown-procedure-type
+explicit-control.c read_file 1151
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+ 0:0:(
+(d,100,1)(e,101,2)(f,102,3)(i,105,4)(n,110,5)(e,101,6)explicit-control.c read_token 1027
+ define : explicit-control.c read_symbol 960
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+  0:8:(
+(t,116,9)(a,97,10)(g,103,11)(g,103,12)(e,101,13)(d,100,14)(-,45,15)(l,108,16)(i,105,17)(s,115,18)(t,116,19)(?,63,20)explicit-control.c read_token 1027
+  tagged-list? : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 12(e,101,22)(x,120,23)(p,112,24)explicit-control.c read_token 1027
+  exp : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 3(t,116,26)(a,97,27)(g,103,28)explicit-control.c read_token 1027
+  tag : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 3  Ending on 0:29:)
+ Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 3)(i, 2)explicit-control.c cons 249
+(cons,1)(i, 1)explicit-control.c cons 249
+(cons,3)(i, 0)explicit-control.c cons 249
+(cons,5)newline
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+  1:2:(
+(i,105,3)(f,102,4)explicit-control.c read_token 1027
+  if : explicit-control.c read_symbol 960
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+   1:6:(
+(p,112,7)(a,97,8)(i,105,9)(r,114,10)(?,63,11)explicit-control.c read_token 1027
+   pair? : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 5(e,101,13)(x,120,14)(p,112,15)explicit-control.c read_token 1027
+   exp : explicit-control.c read_symbol 960
+   Ending on 1:16:)
+  Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 2)(i, 1)explicit-control.c cons 249
+(cons,7)(i, 0)explicit-control.c cons 249
+(cons,9)newline
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+   2:6:(
+(e,101,7)(q,113,8)(?,63,9)explicit-control.c read_token 1027
+   eq? : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 3explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+    2:11:(
+(c,99,12)(a,97,13)(r,114,14)explicit-control.c read_token 1027
+    car : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 3(e,101,16)(x,120,17)(p,112,18)explicit-control.c read_token 1027
+    exp : explicit-control.c read_symbol 960
+    Ending on 2:19:)
+   Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 2)(i, 1)explicit-control.c cons 249
+(cons,11)(i, 0)explicit-control.c cons 249
+(cons,13)explicit-control.c read_token 1027
+(t,116,21)(a,97,22)(g,103,23)explicit-control.c read_token 1027
+   tag : explicit-control.c read_symbol 960
+   Ending on 2:24:)
+  Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 3)(i, 2)explicit-control.c cons 249
+(cons,15)(i, 1)explicit-control.c cons 249
+(cons,17)(i, 0)explicit-control.c cons 249
+(cons,19)newline
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+(#,35,6)(f,102,7)explicit-control.c read_token 1027
+  #f : explicit-control.c read_bool 972
+  Ending on 3:8:)
+ Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 4)(i, 3)explicit-control.c cons 249
+(cons,21)(i, 2)explicit-control.c cons 249
+(cons,23)(i, 1)explicit-control.c cons 249
+(cons,25)(i, 0)explicit-control.c cons 249
+(cons,27)explicit-control.c read_token 1027
+ Ending on 3:9:)
+explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 3)(i, 2)explicit-control.c cons 249
+(cons,29)(i, 1)explicit-control.c cons 249
+(cons,31)(i, 0)explicit-control.c cons 249
+(cons,33)newline
+explicit-control.c read_token 1027
+newline
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+ 5:0:(
+(d,100,1)(e,101,2)(f,102,3)(i,105,4)(n,110,5)(e,101,6)explicit-control.c read_token 1027
+ define : explicit-control.c read_symbol 960
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+  5:8:(
+(q,113,9)(u,117,10)(o,111,11)(t,116,12)(e,101,13)(d,100,14)(?,63,15)explicit-control.c read_token 1027
+  quoted? : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 7(e,101,17)(x,120,18)(p,112,19)explicit-control.c read_token 1027
+  exp : explicit-control.c read_symbol 960
+  Ending on 5:20:)
+ Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 2)(i, 1)explicit-control.c cons 249
+(cons,35)(i, 0)explicit-control.c cons 249
+(cons,37)explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+  5:22:(
+(t,116,23)(a,97,24)(g,103,25)(g,103,26)(e,101,27)(d,100,28)(-,45,29)(l,108,30)(i,105,31)(s,115,32)(t,116,33)(?,63,34)explicit-control.c read_token 1027
+  tagged-list? : explicit-control.c read_symbol 960
+(e,101,36)(x,120,37)(p,112,38)explicit-control.c read_token 1027
+  exp : explicit-control.c read_symbol 960
+(',39,40)(q,113,41)(u,117,42)(o,111,43)(t,116,44)(e,101,45)explicit-control.c read_token 1027
+  'quote : explicit-control.c read_symbol 960
+explicit-control.c cons 249
+(cons,39)explicit-control.c cons 249
+(cons,41)  Ending on 5:46:)
+ Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 3)(i, 2)explicit-control.c cons 249
+(cons,43)(i, 1)explicit-control.c cons 249
+(cons,45)(i, 0)explicit-control.c cons 249
+(cons,47)explicit-control.c read_token 1027
+ Ending on 5:47:)
+explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 3)(i, 2)explicit-control.c cons 249
+(cons,49)(i, 1)explicit-control.c cons 249
+(cons,51)(i, 0)explicit-control.c cons 249
+(cons,53)newline
+explicit-control.c read_token 1027
+newline
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+ 7:0:(
+(d,100,1)(e,101,2)(f,102,3)(i,105,4)(n,110,5)(e,101,6)explicit-control.c read_token 1027
+ define : explicit-control.c read_symbol 960
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+  7:8:(
+(m,109,9)(y,121,10)(-,45,11)(e,101,12)(v,118,13)(a,97,14)(l,108,15)explicit-control.c read_token 1027
+  my-eval : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 7(e,101,17)(x,120,18)(p,112,19)explicit-control.c read_token 1027
+  exp : explicit-control.c read_symbol 960
+(e,101,21)(n,110,22)(v,118,23)explicit-control.c read_token 1027
+  env : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 3  Ending on 7:24:)
+ Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 3)(i, 2)explicit-control.c cons 249
+(cons,55)(i, 1)explicit-control.c cons 249
+(cons,57)(i, 0)explicit-control.c cons 249
+(cons,59)newline
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+  8:1:(
+(c,99,2)(o,111,3)(n,110,4)(d,100,5)explicit-control.c read_token 1027
+  cond : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 4explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+   8:7:(
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+    8:8:(
+(q,113,9)(u,117,10)(o,111,11)(t,116,12)(e,101,13)(d,100,14)(?,63,15)explicit-control.c read_token 1027
+    quoted? : explicit-control.c read_symbol 960
+(e,101,17)(x,120,18)(p,112,19)explicit-control.c read_token 1027
+    exp : explicit-control.c read_symbol 960
+    Ending on 8:20:)
+   Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 2)(i, 1)explicit-control.c cons 249
+(cons,61)(i, 0)explicit-control.c cons 249
+(cons,63)explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+    8:22:(
+(p,112,23)(p,112,24)explicit-control.c read_token 1027
+    pp : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 2(e,101,26)(x,120,27)(p,112,28)explicit-control.c read_token 1027
+    exp : explicit-control.c read_symbol 960
+    Ending on 8:29:)
+   Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 2)(i, 1)explicit-control.c cons 249
+(cons,65)(i, 0)explicit-control.c cons 249
+(cons,67)explicit-control.c read_token 1027
+   Ending on 8:30:)
+  Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 2)(i, 1)explicit-control.c cons 249
+(cons,69)(i, 0)explicit-control.c cons 249
+(cons,71)newline
+explicit-control.c read_token 1027
+(	,9,0)explicit-control.c read_token 1027
+   	 : Unrecognized character
+explicit-control.c read_list 1094
+   9:1:(
+(e,101,2)(l,108,3)(s,115,4)(e,101,5)explicit-control.c read_token 1027
+   else : explicit-control.c read_symbol 960
+explicit-control.c str_alloc_copy 953
+String len: 4explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+    9:7:(
+(p,112,8)(p,112,9)explicit-control.c read_token 1027
+    pp : explicit-control.c read_symbol 960
+(",34,11)(d,100,12)(o,111,13)(n,110,14)(e,101,15)(",34,16)explicit-control.c read_token 1027
+    "done" : Unrecognized character
+    Ending on 9:17:)
+   Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 1)(i, 0)explicit-control.c cons 249
+(cons,73)explicit-control.c read_token 1027
+   Ending on 9:18:)
+  Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 2)(i, 1)explicit-control.c cons 249
+(cons,75)(i, 0)explicit-control.c cons 249
+(cons,77)explicit-control.c read_token 1027
+  Ending on 9:19:)
+ Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 3)(i, 2)explicit-control.c cons 249
+(cons,79)(i, 1)explicit-control.c cons 249
+(cons,81)(i, 0)explicit-control.c cons 249
+(cons,83)explicit-control.c read_token 1027
+ Ending on 9:20:)
+explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 3)(i, 2)explicit-control.c cons 249
+(cons,85)(i, 1)explicit-control.c cons 249
+(cons,87)(i, 0)explicit-control.c cons 249
+(cons,89)newline
+explicit-control.c read_token 1027
+newline
+explicit-control.c read_token 1027
+explicit-control.c read_token 1027
+explicit-control.c read_list 1094
+ 11:0:(
+(m,109,1)(y,121,2)(-,45,3)(e,101,4)(v,118,5)(a,97,6)(l,108,7)explicit-control.c read_token 1027
+ my-eval : explicit-control.c read_symbol 960
+(',39,9)explicit-control.c read_token 1027
+  ' : explicit-control.c read_list 1094
+  11:10:(
+(q,113,11)(u,117,12)(o,111,13)(t,116,14)(e,101,15)explicit-control.c read_token 1027
+  quote : explicit-control.c read_symbol 960
+(5,53,17)explicit-control.c read_token 1027
+  5 : explicit-control.c read_number 936
+(1,49,19)(3,51,20)(2,50,21)explicit-control.c read_token 1027
+  132 : explicit-control.c read_number 936
+  Ending on 11:22:)
+ Finished read_list.explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 3)(i, 2)explicit-control.c cons 249
+(cons,91)(i, 1)explicit-control.c cons 249
+(cons,93)(i, 0)explicit-control.c cons 249
+(cons,95)explicit-control.c cons 249
+(cons,97)explicit-control.c cons 249
+(cons,99)explicit-control.c read_token 1027
+(1,49,24)explicit-control.c read_token 1027
+ 1 : explicit-control.c read_number 936
+ Ending on 11:25:)
+explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 3)(i, 2)explicit-control.c cons 249
+(cons,101)(i, 1)explicit-control.c cons 249
+(cons,103)(i, 0)explicit-control.c cons 249
+(cons,105)newline
+explicit-control.c read_token 1027
+explicit-control.c reg_array_to_reg 1083
+(a_prt->count, 4)(i, 3)explicit-control.c cons 249
+(cons,107)(i, 2)explicit-control.c cons 249
+(cons,109)(i, 1)explicit-control.c cons 249
+(cons,111)(i, 0)explicit-control.c cons 249
+(cons,113)

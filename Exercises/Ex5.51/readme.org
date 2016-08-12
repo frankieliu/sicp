@@ -1,0 +1,19 @@
+* Initialize arrays
+  http://stackoverflow.com/questions/201101/how-to-initialize-all-members-of-an-array-to-the-same-value
+* Size of void*
+  http://stackoverflow.com/questions/6908686/c-size-of-void
+* pointer size
+  http://c-faq.com/null/machexamp.html
+* uin32_t
+  #include <stdint.h>
+  http://stackoverflow.com/questions/5162784/uint32-t-identifier-not-found-error
+* generating prerequisites automatically
+  https://www.gnu.org/software/make/manual/html_node/Automatic-Prerequisites.html
+  http://make.mad-scientist.net/papers/advanced-auto-dependency-generation/
+  http://stackoverflow.com/questions/8025766/makefile-auto-dependency-generation
+* hash
+  http://burtleburtle.net/bob/c/lookup3.c
+* quotes in r6rs
+  http://www.r6rs.org/final/html/r6rs/r6rs-Z-H-15.html#node_sec_A.3
+* language comparison
+  [[https://wiki.call-cc.org/language-comparison]]
