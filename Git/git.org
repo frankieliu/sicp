@@ -1,0 +1,12 @@
+* [[https://www.linux.com/learn/beginning-git-and-github-linux-users][tutorial]]
+* [[https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/][Adding existing project]]
+  1. Create a new repository
+     Do not initizalize the new repository with README, license, or
+     gitignore.
+  2. Open Terminal
+  3. cd to local dir (that you want to put on github)
+  4. $ git innit
+  5. Add the files in your new local repository
+     $ git add .
+     # Adds the files in the local repo and stages them for commit.
+     # To unstage a file, use git reset HEAD YOUR-FILE
