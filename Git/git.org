@@ -23,7 +23,7 @@
      M-x magit-status
   3. s / u / S / U
      Stage stuff / Unstage / Stage modified / Unstage all
-  4. c :
+  4. c c:
      Commit
      C-c C-c finish commit message
   5. P origin:
