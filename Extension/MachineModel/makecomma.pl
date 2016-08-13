@@ -1,0 +1,62 @@
+#!/usr/bin/perl
+use warnings;
+use strict;
+
+my @lines = <DATA>;
+foreach (@lines) {
+  if (/^;; \(op (\S+)\)$/) {
+    print "($1 ,$1)\n";
+  }
+}
+__END__
+;; (op initialize-stack)
+;; (op prompt-for-input)
+;; (op read)
+;; (op get-global-environment)
+;; (op announce-output)
+;; (op user-print)
+;; (op user-print)
+;; (op self-evaluating?)
+;; (op variable?)
+;; (op quoted?)
+;; (op assignment?)
+;; (op definition?)
+;; (op if?)
+;; (op lambda?)
+;; (op begin?)
+;; (op application?)
+;; (op lookup-variable-value)
+;; (op text-of-quotation)
+;; (op lambda-parameters)
+;; (op lambda-body)
+;; (op make-procedure)
+;; (op operands)
+;; (op operator)
+;; (op empty-arglist)
+;; (op no-operands?)
+;; (op first-operand)
+;; (op last-operand?)
+;; (op adjoin-arg)
+;; (op rest-operands)
+;; (op adjoin-arg)
+;; (op primitive-procedure?)
+;; (op compound-procedure?)
+;; (op apply-primitive-procedure)
+;; (op procedure-parameters)
+;; (op procedure-environment)
+;; (op extend-environment)
+;; (op procedure-body)
+;; (op begin-actions)
+;; (op no-more-exps?)
+;; (op first-exp)
+;; (op rest-exps)
+;; (op if-predicate)
+;; (op true?)
+;; (op if-alternative)
+;; (op if-consequent)
+;; (op assignment-variable)
+;; (op assignment-value)
+;; (op set-variable-value!)
+;; (op definition-variable)
+;; (op definition-value)
+;; (op define-variable!)
