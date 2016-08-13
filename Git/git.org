@@ -26,7 +26,7 @@
   4. c c:
      Commit
      C-c C-c finish commit message
-  5. P origin:
+  5. P p (for remote) / P u (for upstream)
      Push
   6. F origin:
      Fetch (Pull) origin
