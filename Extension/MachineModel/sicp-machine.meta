@@ -1,0 +1,6 @@
+((files "sicp-machine.setup"
+        "sicp-machine.scm")
+ (license "BSD")
+ (author "Frankie Liu")
+ (synopsis "SICP Chapter 5 - Register-Machine Simulator"))
+	

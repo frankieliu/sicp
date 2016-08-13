@@ -1,0 +1,26 @@
+(use setup-helper-mod)
+(setup-shared-extension-module
+ 'sicp-machine
+ (extension-version "1.0"))
+
+(setup-shared-extension-module
+ 'sicp-machine-monitor
+ (extension-version "1.0"))
+
+(setup-shared-extension-module
+ 'sicp-explicit-control
+ (extension-version "1.0"))
+
+(setup-shared-extension-module
+ 'sicp-compile
+ (extension-version "1.0"))
+
+;; (setup-shared-extension-module
+;;  'sicp-machine-auto-register)
+
+;(compile -s -O3 -d1 "sicp-machine.scm" -j sicp-machine)
+;(compile -s -O3 -d0 "sicp-machine.import.scm")
+;(install-extension
+; 'sicp-machine
+; '("sicp-machine.so" "sicp-machine.import.so")
+; '((version 1.0)))

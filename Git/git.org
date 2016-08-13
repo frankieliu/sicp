@@ -1,3 +1,22 @@
+* General
+
+  1. Set the origin
+     git remote add origin https://github.com/frankieliu/sicp
+
+  2. Stage things
+     git add .         # the current directory modified contents
+     git add folder/   # add a new folder
+     git add *         # add all files in cwd
+
+  3. Commit your staged items
+     git commit
+
+  4. Push it
+     git push origin master
+
+  5. Pull it
+     git pull origin master
+
 * [[https://www.linux.com/learn/beginning-git-and-github-linux-users][tutorial]]
 * [[https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/][Adding existing project]]
   1. Create a new repository
