@@ -17,6 +17,21 @@
   5. Pull it
      git pull origin master
 
+* Magit
+  1. Install : M-x package-install magit
+  2. Use :
+     M-x magit-status
+  3. s / u / S / U
+     Stage stuff / Unstage / Stage modified / Unstage all
+  4. c :
+     Commit
+     C-c C-c finish commit message
+  5. P origin:
+     Push
+  6. F origin:
+     Fetch (Pull) origin
+  7. g :
+     Refresh
 * [[https://www.linux.com/learn/beginning-git-and-github-linux-users][tutorial]]
 * [[https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/][Adding existing project]]
   1. Create a new repository
